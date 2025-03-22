@@ -1,0 +1,58 @@
+body {
+    background-color: rgb(31, 31, 31);
+    font-family: Ubuntu;
+    font-size: large;
+    color: gray;
+    margin: 0px;
+}
+
+header img {
+    height: 100px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    top: 0;
+    position: sticky;
+    background-color: rgb(88, 88, 88);
+}
+
+.main-container img {
+    height: 200px;
+    border: 1px solid lightgray;
+}
+
+.main-container {
+    display: flex;
+    max-width: 1000px;
+    justify-self: center;
+    flex-direction: column;
+    row-gap: 36.01px;
+    margin-top: 36.01px;
+}
+
+.sect1container {
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+
+.sect2container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 36.01px 36.01px;
+}
+
+#exp, #stack, #bio, #proj {
+    width: 480px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h2 {
+    color: rgb(0, 255, 34);
+}
