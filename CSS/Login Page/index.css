@@ -1,0 +1,68 @@
+body {
+    background-color: gray;
+    font-family: Roboto;
+    margin: 0;
+}
+
+nav {
+    background-color: rgb(32, 32, 32);
+    color: orange;
+    font-family: Boldonse;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ico {
+    display: flex;
+}
+
+div #home, #abt, #cont {
+    width: 90px;
+    padding: 29px 7px 29px 7px;
+    text-decoration: none;
+    margin: none;
+}
+
+div #home:hover, #abt:hover, #cont:hover {
+    width: 90px;
+    background-color: rgb(78, 78, 78);
+    text-decoration: none;
+}
+
+.navbtn {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.navbtn a {
+    color: orange;
+}
+
+.container {
+    border: 2px solid orange;
+    background-color: rgb(32, 32, 32);
+    text-align: center;
+    display: block;
+    height: 450px;
+    width: 350px;
+    margin: 100px auto;
+    border-radius: 10px;
+}
+
+form .btn, input{
+    width: 250px;
+    height: 25px;
+    height: fit-content;
+    font-size: 1.5em;
+    display: block;
+    margin: 10px auto;
+    background-color: lightgray;
+    color: orange;
+    border-radius: 10px;
+}
+
+form h2{
+    display: block;
+    color: orange;
+}
